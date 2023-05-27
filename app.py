@@ -8,6 +8,11 @@ from langchain.chains.question_answering import load_qa_chain
 from langchain.llms import OpenAI
 from langchain.callbacks import get_openai_callback
 
+headers = {
+    "authorization" : st.secrets["OPENAI_API_KEY"],
+    "content-type" : "application/json"
+}
+
 def main():
     load_dotenv()
     st.set_page_config(page_title="Conoce Fasta")
