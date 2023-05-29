@@ -16,7 +16,7 @@ headers = {
 def main():
     load_dotenv()
     st.set_page_config(page_title="Conoce Fasta")
-    st.header("¿Quiéres saber sobre Fasta? Pregúntanos 💬")
+    st.header("¿Quieres saber sobre Fasta? Pregúntanos 💬")
     
     # Provide the path to your existing PDF file
     pdf_path = "data/carpeta_institucional.pdf"
